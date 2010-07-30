@@ -1,0 +1,13 @@
+Bindings for the Rapleaf API as presented at:
+http://www.rapleaf.com/apidoc/person
+http://www.rapleaf.com/apidoc/v2/graph/
+
+Languages:
+PHP:
+	php/rapleaf.php
+	php/rapleaf_test.php
+Python:
+	python/rapleaf.py
+
+License:
+  Apache License, Version 2.0
