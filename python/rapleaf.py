@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-# $Header:   $
-# Copyright 2010 Aalok Shah (aalok@shah.ws)
+# Copyright 2010 Aalok Shah
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
