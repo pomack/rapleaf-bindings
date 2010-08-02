@@ -275,7 +275,7 @@ class RapleafAPI(object):
     url = self.__class__.PERSON_URI + 'email/' + quote(unicode(email))
     value, code = self.__get_request(url)
     if code == 200 and value:
-      print value
+      #print value
       return code, None, RapleafUser.from_xml(value, email_address=email), code
     return code, self.__class__.ERROR_CODES.get(code, 'Unknown Error Code'), None
   
@@ -283,7 +283,7 @@ class RapleafAPI(object):
     url = self.__class__.PERSON_URI + 'web/' + unicode(site) + '/' + quote(unicode(profile_id))
     value, code = self.__get_request(url)
     if code == 200 and value:
-      print value
+      #print value
       return code, None, RapleafUser.from_xml(value)
     return code, self.__class__.ERROR_CODES.get(code, 'Unknown Error Code'), None
   
